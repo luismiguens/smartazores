@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+    {{ include('partials/header.html.twig', { 'article': 'header' }) }}
+
+    {{ include('partials/hero.html.twig', { 'article': 'hero' }) }}
+
+    {{ include('partials/single.html.twig', { 'article': 'single' }) }}
+
+    {{ include('partials/services.html.twig', { 'article': 'services' }) }}
+
+    {{ include('partials/trips.html.twig', { 'article': 'trips' }) }}
+
+{#    {{ include('partials/team.html.twig', { 'article': 'team' }) }}
+
+    {{ include('partials/faq.html.twig', { 'article': 'faq' }) }}#}
+    
+    {{ include('partials/pricing.html.twig', { 'article': 'pricing' }) }}
+
+    {{ include('partials/testimonials.html.twig', { 'article': 'testimonials' }) }}
+
+  {{ include('partials/contact.html.twig', { 'article': 'contact' }) }}
+
+      {{ include('partials/footer.html.twig', { 'article': 'footer' }) }}
+
+    {#{{ include('partials/copyright.html.twig', { 'article': 'copyright' }) }}#}
+
+
+{% endblock %}

@@ -1,0 +1,92 @@
+
+<!-- Portfolio 20
+            ==================================================================== -->
+            <div id="portfolio-section-20" class="portfolio-section white-section">
+                <!-- Section Container -->
+                <div class="section-container">
+
+
+                    <!-- container -->
+                    <div class="container">
+                        <!-- row -->
+                        <div class="row">
+
+
+                            <!-- Title Block -->
+                            <div class="col-lg-10 col-lg-offset-1 col-md-12 title-block">
+                                <!-- Title Block Container -->
+                                <div class="title-block-container text-center">
+
+                                    <!-- Title -->
+                                    <h2>SUGESTÕES "SMART"</h2>
+
+                                    <!-- Description -->
+                                    <p>As nossas sugestões também são Smart! Vivemos há muitos anos na lindíssima e vibrante Ilha de São Miguel no arquipélago dos Açores e propomos-te a nossa lista Smart dos locais que não podes deixar de visitar. Diverte-te!</p>
+
+                                    <!-- Line Separator -->
+                                    <div class="line-separator"></div>
+
+                                </div><!-- /End Title Block Container -->
+                            </div><!-- /End Title Block -->
+
+
+                            
+                            {% for trip in trips%}
+                           
+                            <!-- Portfolio Block -->
+                            <div class="col-md-4 col-sm-6 portfolio-block">
+                                <!-- Portfolio Block Container -->
+                                <div class="portfolio-block-container">
+
+                                    <!-- Image Block -->
+                                    <div class="image-block">
+                                        <!-- Image Block Container -->
+                                        <div class="image-block-container">
+                                            <!-- Image Block -->
+                                                    <div class="image-block">
+                                                        <!-- Image Block Container -->
+                                                        <div class="image-block-container">
+
+                                                            <!-- Link -->
+                                                            <a href="#" title="{{trip.title}}">
+                                                                <img src="{{ asset('bundles/app/images/portfolio/travel/'~trip.img_link)}}" alt="{{trip.title}}" />
+                                                                {#<img src="{{ asset('bundles/app/images/portfolio/travel/fumarolas-das-furnas.jpg')}}" alt="{{trip.title}}" />#}
+                                                                
+                                                            </a><!-- /End Link -->
+
+                                                            <!-- Ribbon Block -->
+                                                          {#  <div class="ribbon-block ribbon-block-style-2 ribbon-bottom-right">Featured</div>
+                                                            <div class="ribbon-block ribbon-block-style-1 ribbon-bottom-right">$2,350</div>#}
+
+                                                        </div><!-- /End Image Block Container -->
+                                                    </div><!-- /End Image Block -->
+                                                            
+                                        </div><!-- /End Image Block Container -->
+                                    </div><!-- /End Image Block -->
+
+                                    <!-- Title -->
+                                    <h4><a href="#" title="{{trip.title}}">{{trip.title}}</a></h4>
+
+                                    <!-- Description -->
+                                    <p>{{trip.description}}</p>
+
+                                </div><!-- /End Portfolio Block Container -->
+                            </div><!-- /End Portfolio Block -->
+
+{% endfor %}
+
+                           {# <!-- button-block -->
+                            <div class="col-md-12 button-block">
+                                <div class="button-block-container text-center">
+                                    <a href="#" title="View All CLASSES" class="btn btn-gfort wave-effect">VIEW ALL CLASSES</a>
+                                </div>
+                            </div><!-- /End button-block -->
+#}
+
+                        </div><!-- /End row -->
+                    </div><!-- /End container -->
+
+
+                </div><!-- /End Section Container -->
+            </div><!-- /End Portfolio 20 -->
+

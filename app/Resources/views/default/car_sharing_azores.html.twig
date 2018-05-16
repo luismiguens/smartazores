@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Car Sharing Azores{% endblock %}
+
+{% block body %}
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117272102-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117272102-1');
+</script>
+
+<script>
+    
+    window.onload = function () { 
+        window.location.replace("https://www.caramigo.eu/pt/pt/cars/ponta-delgada/smart/451/23540"); 
+    }
+    
+</script>
+
+
+{% endblock %}

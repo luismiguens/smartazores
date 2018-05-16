@@ -1,0 +1,4 @@
+app_admin_contact:
+    resource: "@AppBundle/Resources/config/routing/contact.yml"
+    prefix:   /admin_contact
+

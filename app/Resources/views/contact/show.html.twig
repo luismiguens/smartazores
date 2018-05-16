@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Contact</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>{{ contact.name }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ contact.email }}</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>{{ contact.phone }}</td>
+            </tr>
+            <tr>
+                <th>Choosecar</th>
+                <td>{{ contact.chooseCar }}</td>
+            </tr>
+            <tr>
+                <th>Pickuplocation</th>
+                <td>{{ contact.pickupLocation }}</td>
+            </tr>
+            <tr>
+                <th>Dropofflocation</th>
+                <td>{{ contact.dropoffLocation }}</td>
+            </tr>
+            <tr>
+                <th>Pickupdate</th>
+                <td>{{ contact.pickupDate }}</td>
+            </tr>
+            <tr>
+                <th>Pickuptime</th>
+                <td>{{ contact.pickupTime }}</td>
+            </tr>
+            <tr>
+                <th>Dropoffdate</th>
+                <td>{{ contact.dropoffDate }}</td>
+            </tr>
+            <tr>
+                <th>Dropofftime</th>
+                <td>{{ contact.dropoffTime }}</td>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <td>{{ contact.id }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('admin_contact_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('admin_contact_edit', { 'id': contact.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}
