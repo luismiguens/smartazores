@@ -27,7 +27,7 @@
                                         <div class="title-block-container">
 
                                             <!-- Title -->
-                                            <h2>RESERVE A CARR</h2>
+                                            <h2>{% trans %}contact_title{% endtrans %}</h2>
 
                                             <!-- Line Separator -->
                                             <div class="line-separator"></div>
@@ -46,7 +46,7 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control contact-name" name="contact_name">
-                                                        <label>Name</label>
+                                                        <label>{% trans %}contact_client_name{% endtrans %}</label>
                                                     </div>
                                                 </div><!-- /End Name -->
 
@@ -54,7 +54,7 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control contact-email" name="contact_email">
-                                                        <label>Email address</label>
+                                                        <label>{% trans %}contact_client_email{% endtrans %}</label>
                                                     </div>
                                                 </div><!-- /End Email Address -->
 
@@ -62,7 +62,7 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control contact-phone" name="contact_phone">
-                                                        <label>Phone</label>
+                                                        <label>{% trans %}contact_client_phone{% endtrans %}</label>
                                                     </div>
                                                 </div><!-- /End Phone -->
 
@@ -71,15 +71,16 @@
                                                     <div class="form-group">
 
                                                         <select class="gfort-select contact-choose-car" name="contact_choose_car">
-                                                            <option data-car-file="json-files/cars/001.json">Fiat 500</option>
+                                              {#              <option data-car-file="json-files/cars/001.json">Fiat 500</option>
                                                             <option data-car-file="json-files/cars/002.json">VW Polo</option>
                                                             <option data-car-file="json-files/cars/003.json">Peugeot 308</option>
                                                             <option data-car-file="json-files/cars/004.json">MINI</option>
                                                             <option data-car-file="json-files/cars/005.json">Renault Megane Estate</option>
-                                                            <option data-car-file="json-files/cars/006.json">BMW Serie 1</option>
+                                                            <option data-car-file="json-files/cars/006.json">BMW Serie 1</option>#}
+                                                            <option>Smart FowTwo</option>
                                                         </select>
 
-                                                        <label>Choose a car</label>
+                                                        <label>{% trans %}contact_client_car{% endtrans %}</label>
 
                                                     </div>
                                                 </div><!-- /End Choose a car -->
@@ -298,7 +299,11 @@
                                     <div class="image-block">
                                         <!-- Image Block Container -->
                                         <div class="image-block-container">
-                                            <img src="images/car-rent/car-rent-011.png" alt="Image Block" />
+                                            
+                                            {#<img src="images/car-rent/car-rent-011.png" alt="Image Block" />#}
+                                            <img src="{{ asset('bundles/app/images/hero/IMG_0045.jpg')}}" alt="Image Block" />
+                                            
+                                            
                                         </div><!-- /End Image Block Container -->
                                     </div><!-- /End Image Block -->
 

@@ -6,11 +6,12 @@ backend:
     resource: "@AppBundle/Resources/config/routing.yml"
     prefix:   /
     
+
 homepage:
-    path:     /
-    defaults: { _controller: "AppBundle:Default:index" }
-    methods:  [GET, POST]
-    
+    path:      /{_locale}
+    defaults:  { _controller: AppBundle:Default:index, _locale: en }
+    requirements:
+        _locale:  en|pt
     
     
 contact:

@@ -18,10 +18,10 @@
                                 <div class="title-block-container text-center">
 
                                     <!-- Title -->
-                                    <h2>SUGESTÕES "SMART"</h2>
+                                    <h2>{% trans %}trips_title{% endtrans %}</h2>
 
                                     <!-- Description -->
-                                    <p>As nossas sugestões também são Smart! Vivemos há muitos anos na lindíssima e vibrante Ilha de São Miguel no arquipélago dos Açores e propomos-te a nossa lista Smart dos locais que não podes deixar de visitar. Diverte-te!</p>
+                                    <p>{% trans %}trips_description{% endtrans %}</p>
 
                                     <!-- Line Separator -->
                                     <div class="line-separator"></div>
@@ -48,12 +48,13 @@
                                                         <div class="image-block-container">
 
                                                             <!-- Link -->
-                                                            <a href="#" title="{{trip.title}}">
+                                                            {#<a href="#" title="{{trip.title}}">
                                                                 <img src="{{ asset('bundles/app/images/portfolio/travel/'~trip.img_link)}}" alt="{{trip.title}}" />
-                                                                {#<img src="{{ asset('bundles/app/images/portfolio/travel/fumarolas-das-furnas.jpg')}}" alt="{{trip.title}}" />#}
-                                                                
                                                             </a><!-- /End Link -->
-
+#}
+                                                                <img src="{{ asset('bundles/app/images/portfolio/travel/'~trip.img_link)}}" alt="{{trip.title}}" />
+                                                            
+                                                            
                                                             <!-- Ribbon Block -->
                                                           {#  <div class="ribbon-block ribbon-block-style-2 ribbon-bottom-right">Featured</div>
                                                             <div class="ribbon-block ribbon-block-style-1 ribbon-bottom-right">$2,350</div>#}
@@ -65,10 +66,13 @@
                                     </div><!-- /End Image Block -->
 
                                     <!-- Title -->
-                                    <h4><a href="#" title="{{trip.title}}">{{trip.title}}</a></h4>
+                                    {#<h4><a href="#" title="{{trip.title}}">{{trip.title}}</a></h4>#}
+<h4>{{trip.title}}</h4>
+
+
 
                                     <!-- Description -->
-                                    <p>{{trip.description}}</p>
+                                    {#<p>{{trip.description}}</p>#}
 
                                 </div><!-- /End Portfolio Block Container -->
                             </div><!-- /End Portfolio Block -->

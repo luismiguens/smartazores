@@ -22,8 +22,8 @@
                                     <!-- Navbar Header -->
                                     <div class="navbar-header">
                                         <!-- Logo -->
-                                        <a href="#header-section-8" class="navbar-brand" title="Smart Azores">
-                                            <img src="{{ asset('bundles/app/images/logo.png')}}" alt="Smart Azores Logo" />
+                                        <a href="#header-section-8" class="navbar-brand" title="{% trans %}header_logo_title{% endtrans %}">
+                                            <img src="{{ asset('bundles/app/images/logo.png')}}" alt="{% trans %}header_logo_title{% endtrans %}" />
                                         </a><!-- /End Logo -->
                                     </div><!-- /End Navbar Header -->
 
@@ -44,7 +44,7 @@
                                             <i class="fa fa-phone circle-icon-block circle-icon-block-sm"></i>
 
                                             <!-- Title -->
-                                            <h6>CALL US</h6>
+                                            <h6>{% trans %}header_call_me{% endtrans %}</h6>
 
                                             <!-- Description -->
                                             <a href="tel:+351962445280" title="+351962445280">+351 962445280</a>
@@ -62,10 +62,10 @@
                                             <i class="fa fa-envelope circle-icon-block circle-icon-block-sm"></i>
 
                                             <!-- Title -->
-                                            <h6>CONTACT US</h6>
+                                            <h6>{% trans %}header_contact_me{% endtrans %}</h6>
 
                                             <!-- Description -->
-                                            <a href="mailto:support@smartazores.com" title="support@smartazores.com">support@smartazores.com</a>
+                                            <a href="mailto:smartazores@gmail.com" title="smartazores@gmail.com">smartazores@gmail.com</a>
 
                                         </div><!-- /End Info Block Container -->
                                     </div><!-- /End Info Block -->
@@ -80,10 +80,10 @@
                                             <i class="fa fa-clock-o circle-icon-block circle-icon-block-sm"></i>
 
                                             <!-- Title -->
-                                            <h6>WORKING HOURS</h6>
+                                            <h6>{% trans %}header_working_hours{% endtrans %}</h6>
 
                                             <!-- Description -->
-                                            <p>Monday - Friday: 9am - 6pm</p>
+                                            <p>{% trans %}header_working_hours_description{% endtrans %}</p>
 
                                         </div><!-- /End Info Block Container -->
                                     </div><!-- /End Info Block -->
@@ -124,27 +124,27 @@
                                                 <ul class="nav navbar-nav navbar-right">
 
                                                     <li>
-                                                        <a href="#header-section-8" title="Home">Home</a>
+                                                        <a href="#header-section-8" title="{% trans %}header_menu_home{% endtrans %}">{% trans %}header_menu_home{% endtrans %}</a>
                                                     </li>
 
                                                     <li>
-                                                        <a href="#content-section-16" title="Services">Services</a>
+                                                        <a href="#single-section-1" title="{% trans %}header_menu_photos{% endtrans %}">{% trans %}header_menu_photos{% endtrans %}</a>
                                                     </li>
-
+{#
                                                     <li>
                                                         <a href="#portfolio-section-21" title="The Fleet">The Fleet</a>
+                                                    </li>#}
+
+                                                    <li>
+                                                        <a href="#portfolio-section-20" title="{% trans %}header_menu_attractions{% endtrans %}">{% trans %}header_menu_attractions{% endtrans %}</a>
                                                     </li>
 
                                                     <li>
-                                                        <a href="#portfolio-section-20" title="Team">ROTEIRO</a>
+                                                        <a href="#pricing-section-1" title="{% trans %}header_menu_plans{% endtrans %}">{% trans %}header_menu_plans{% endtrans %}</a>
                                                     </li>
 
                                                     <li>
-                                                        <a href="#pricing-section-1" title="FAQ">PLANOS</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#contact-section-22" title="Contact">RESERVAR</a>
+                                                        <a href="#contact-section-22" title="{% trans %}header_menu_contact{% endtrans %}">{% trans %}header_menu_contact{% endtrans %}</a>
                                                     </li>
 
                                                 </ul>
@@ -155,12 +155,12 @@
                                             <div class="social-icons-block social-icons-block-sm social-icons-block-style-1">
                                                 <ul>
                                                     <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                                    {#<li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
                                                     <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                                                     <li><a href="#" title="youtube"><i class="fa fa-youtube-play"></i></a></li>
                                                     <li><a href="#" title="Behance"><i class="fa fa-behance"></i></a></li>
                                                     <li><a href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                                                    <li><a href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+                                                    <li><a href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>#}
                                                 </ul>
                                             </div><!-- /End Social Icons Block -->
 

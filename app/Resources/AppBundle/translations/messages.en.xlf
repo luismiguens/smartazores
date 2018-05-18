@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+        <header>
+            <tool tool-id="symfony" tool-name="Symfony" />
+        </header>
+        <body>
+            
+            <!-- HEADER BEGIN -->
+            
+            <trans-unit id="header_logo_title" resname="header_logo_title">
+                <source>header_logo_title</source>
+                <target>Rent my Smart car in Azores</target>
+            </trans-unit>      
+            
+            <trans-unit id="header_call_me" resname="header_call_me">
+                <source>header_call_me</source>
+                <target>CALL ME</target>
+            </trans-unit>          
+            
+            <trans-unit id="header_contact_me" resname="header_contact_me">
+                <source>header_contact_me</source>
+                <target>CONTACT ME</target>
+            </trans-unit>
+            
+            <trans-unit id="header_working_hours" resname="header_working_hours">
+                <source>header_contact_me</source>
+                <target>WORKING HOURS</target>
+            </trans-unit>
+            
+            <trans-unit id="header_working_hours_description" resname="header_working_hours_description">
+                <source>header_working_hours_description</source>
+                <target>Always open</target>
+            </trans-unit>
+            
+            <trans-unit id="header_menu_home" resname="header_menu_home">
+                <source>header_menu_home</source>
+                <target>HOME</target>
+            </trans-unit>
+            
+            <trans-unit id="header_menu_photos" resname="header_menu_photos">
+                <source>header_menu_photos</source>
+                <target>PHOTOS</target>
+            </trans-unit>
+            
+            <trans-unit id="header_menu_attractions" resname="header_menu_attractions">
+                <source>header_menu_attractions</source>
+                <target>ATTRACTIONS</target>
+            </trans-unit>
+            
+              <trans-unit id="header_menu_plans" resname="header_menu_plans">
+                <source>header_menu_plans</source>
+                <target>PLANS</target>
+            </trans-unit>
+            
+            <trans-unit id="header_menu_contact" resname="header_menu_contact">
+                <source>header_menu_contact</source>
+                <target>CONTACT</target>
+            </trans-unit>
+            
+            
+            <!-- HEADER BEGIN -->
+            
+            
+            
+            
+            <!-- HERO BEGIN -->
+            <trans-unit id="hero_title" resname="hero_title">
+                <source>hero_title</source>
+                <target>RENT MY SMART</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="hero_description" resname="hero_description">
+                <source>hero_description</source>
+                <target>Rent a Smart car and have fun in Azores!</target>
+            </trans-unit>
+            
+            <trans-unit id="hero_see_more" resname="hero_see_more">
+                <source>hero_see_more</source>
+                <target>SEE MORE</target>
+            </trans-unit>
+            
+            <trans-unit id="hero_rent_now" resname="hero_rent_now">
+                <source>hero_rent_now</source>
+                <target>PURCHASE NOW</target>
+            </trans-unit>
+            
+            <!-- HERO END -->
+            
+            
+            <!-- SINGLE BEGIN -->
+            <trans-unit id="single_title" resname="single_title">
+                <source>single_title</source>
+                <target>Photos from my Smart ForTwo</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="single_description" resname="single_description">
+                <source>single_description</source>
+                <target>Maybe you just realize that you're sitting in a small car in the parking spaces where you fit without problems.
+                    The interior is surprisingly generous in all aspects: the look and feel of the materials, as well as the consequent design of the design line, are a delight for every kilometer.</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="single_description_car" resname="single_description_car">
+                <source>single_description_car</source>
+                <target>3 Doors</target>
+            </trans-unit>
+            
+                        <trans-unit id="single_description_male" resname="single_description_male">
+                <source>single_description_male</source>
+                <target>2 passengers</target>
+            </trans-unit>
+            
+             <trans-unit id="single_description_shopping_bag" resname="single_description_shopping_bag">
+                <source>single_description_shopping_bag</source>
+                <target>2 Bags</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="single_description_sliders" resname="single_description_sliders">
+                <source>single_description_sliders</source>
+                <target>Manual / sequential transmission</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="single_description_asterisk" resname="single_description_asterisk">
+                <source>single_description_asterisk</source>
+                <target>Air conditioning available</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="single_description_dollar" resname="single_description_dollar">
+                <source>single_description_dollar</source>
+                <target>25.00 € / DAY</target>
+            </trans-unit>
+            
+            
+            
+            <!-- SINGLE END -->
+            
+            
+            
+            <!-- SERVICES BEGIN -->
+               <trans-unit id="services_title" resname="services_title">
+                <source>services_title</source>
+                <target>Smart people are fun people</target>
+            </trans-unit>
+            
+            <trans-unit id="services_description" resname="services_description">
+                <source>services_description</source>
+                <target>While you discover the island of São Miguel in the Azores, have fun with our Smart! Have fun driving, parking, turning and assuming a character!</target>
+            </trans-unit>
+            
+            
+            
+                <trans-unit id="services_question_01" resname="services_question_01">
+                <source>services_question_01</source>
+                <target>F1 race pilot?</target>
+            </trans-unit>
+               
+               
+               
+                <trans-unit id="services_question_02" resname="services_question_02">
+                <source>services_question_02</source>
+                <target>Limousine driver?</target>
+            </trans-unit>
+            
+            
+            
+                <trans-unit id="services_question_03" resname="services_question_03">
+                <source>services_question_03</source>
+                <target>Rally driver?</target>
+            </trans-unit>
+            
+            
+            
+                <trans-unit id="services_answer_01" resname="services_answer_01">
+                <source>services_answer_01</source>
+                <target>Imagine Michael Schumacher and get to the tourist spots on the island of São Miguel in the Azores faster (there is a lot to visit, but always within the speed limits!)</target>
+            </trans-unit>
+            
+             <trans-unit id="services_answer_02" resname="services_answer_02">
+                <source>services_answer_02</source>
+                <target>Imagine yourself driving a large and luxurious Limousine (the smart fortwo is only 2.69 m, with the smart fortwo you find a parking place always without problems!)</target>
+            </trans-unit>
+            
+             <trans-unit id="services_answer_03" resname="services_answer_03">
+                <source>services_answer_03</source>
+                <target>Imagine you Stéphane Peterhansel and start to train! (The Azores rally is considered by the ERC (European Rally Championship) to be one of the most spectacular!)</target>
+            </trans-unit>
+            
+                <!-- SERVICES END -->
+            
+            
+            
+            <!-- TRIPS BEGIN-->
+             
+               <trans-unit id="trips_title" resname="trips_title">
+                <source>trips_title</source>
+                <target>The Smartest attractions</target>
+            </trans-unit>
+             
+             <trans-unit id="trips_description" resname="trips_description">
+                <source>trips_description</source>
+                <target>The list of tourist attractions we propose below are also Smart! These are the proposals of those who have been in love for many years with the Island of São Miguel. Have fun!</target>
+            </trans-unit>
+             
+             <!-- TRIPS END-->
+            
+            
+            
+            
+            <!-- TESTIMONIALS BEGIN-->
+            
+            <trans-unit id="testimonials_title" resname="testimonials_title">
+                <source>testimonials_title</source>
+                <target>Smart clients</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="testimonials_description" resname="testimonials_description">
+                <source>testimonials_description</source>
+                <target>What people say who rented my Smart to visit the island of São Miguel</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="testimonials_01" resname="testimonials_01">
+                <source>testimonials_01</source>
+                <target>Excellent service, staff (especially Luis Miguens) very friendly, helpful and professional!</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="testimonials_02" resname="testimonials_02">
+                <source>testimonials_02</source>
+                <target>Great car, price and service.</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="testimonials_03" resname="testimonials_03">
+                <source>testimonials_03</source>
+                <target>Very positive car rental experience!</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="testimonials_04" resname="testimonials_04">
+                <source>testimonials_04</source>
+                <target>Delivery and pickup on time. Vehicle in a very good condition!</target>
+            </trans-unit>
+            
+            
+            <!-- TESTIMONIALS END-->
+            
+            
+            
+            
+             <!-- PRICING BEGIN -->
+            
+            <trans-unit id="pricing_title" resname="pricing_title">
+                <source>pricing_title</source>
+                <target>Smart plans</target>
+            </trans-unit>
+            
+            <trans-unit id="pricing_description" resname="pricing_description">
+                <source>pricing_description</source>
+                <target>The Azores and in particular the island of São Miguel offer the same beauty and spectacular scenery throughout the year. Choose the plan for your Smart according to your personal preference!</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="pricing_plan_01" resname="pricing_plan_01">
+                <source>pricing_plan_01</source>
+                    <target>LOW SEASON</target>
+            </trans-unit>
+            
+            
+              <trans-unit id="pricing_plan_02" resname="pricing_plan_02">
+                <source>pricing_plan_02</source>
+                    <target>MIDDLE SEASON</target>
+            </trans-unit>
+            
+              <trans-unit id="pricing_plan_03" resname="pricing_plan_03">
+                <source>pricing_plan_03</source>
+                    <target>HIGH SEASON</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="pricing_plan_description_01" resname="pricing_plan_description_01">
+                <source>pricing_plan_description_01</source>
+                    <target>Between October and March.</target>
+            </trans-unit>
+            
+            
+              <trans-unit id="pricing_plan_description_02" resname="pricing_plan_description_02">
+                <source>pricing_plan_description_02</source>
+                    <target>Between April and June.</target>
+            </trans-unit>
+            
+              <trans-unit id="pricing_plan_description_03" resname="pricing_plan_description_03">
+                <source>pricing_plan_description_03</source>
+                    <target>Between July and September.</target>
+            </trans-unit>
+            
+            
+              <trans-unit id="pricing_day" resname="pricing_day">
+                <source>pricing_day</source>
+                    <target>day</target>
+            </trans-unit>
+            
+            <trans-unit id="pricing_now" resname="pricing_now">
+                <source>pricing_now</source>
+                    <target>now</target>
+            </trans-unit>
+            
+            
+            <!-- PRICING END -->
+            
+            
+            
+                 <!-- CONTACT BEGIN-->
+             <trans-unit id="contact_title" resname="contact_title">
+                <source>contact_title</source>
+                    <target>Smart car rental request</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="contact_client_name" resname="contact_client_name">
+                <source>contact_client_name</source>
+                    <target>Name</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="contact_client_email" resname="contact_client_email">
+                <source>contact_client_email</source>
+                    <target>Email address</target>
+            </trans-unit>
+            
+             <trans-unit id="contact_client_phone" resname="contact_client_phone">
+                <source>contact_client_phone</source>
+                    <target>Phone</target>
+            </trans-unit>
+            
+            
+             <trans-unit id="contact_client_car" resname="contact_client_car">
+                <source>contact_client_car</source>
+                    <target>Choose the car</target>
+            </trans-unit>
+            
+            
+            
+             <trans-unit id="contact_client_pickup_location" resname="contact_client_pickup_location">
+                <source>contact_client_pickup_location</source>
+                    <target>Pick-up location</target>
+            </trans-unit>
+            
+            
+            
+             <trans-unit id="contact_client_pickup_date" resname="contact_client_pickup_date">
+                <source>contact_client_pickup_date</source>
+                    <target>Pick-up date</target>
+            </trans-unit>
+                       
+            
+             <trans-unit id="contact_client_pickup_time" resname="contact_client_pickup_time">
+                <source>contact_client_pickup_time</source>
+                    <target>Pick-up time</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="contact_client_dropoff_location" resname="contact_client_dropoff_location">
+                <source>contact_client_dropoff_location</source>
+                    <target>Drop-off location</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="contact_client_dropoff_date" resname="contact_client_dropoff_date">
+                <source>contact_client_dropoff_date</source>
+                    <target>Drop-off date</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="contact_client_dropoff_time" resname="contact_client_dropoff_time">
+                <source>contact_client_dropoff_time</source>
+                    <target>Drop-off time</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="contact_client_conditions" resname="contact_client_conditions">
+                <source>contact_client_conditions</source>
+                    <target>I have read and agreed to Rent my Smart terms and conditions.</target>
+            </trans-unit>
+            
+            <trans-unit id="contact_client_send_message" resname="contact_client_send_message">
+                <source>contact_client_send_message</source>
+                    <target>Send rental request</target>
+            </trans-unit>
+            
+            
+            <!-- CONTACT END-->
+            
+            
+                        
+        </body>
+    </file>
+</xliff>

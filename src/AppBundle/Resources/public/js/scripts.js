@@ -1894,7 +1894,7 @@ jQuery(document).ready(function () {
             elCurrentMap[index] = new google.maps.Map(document.getElementById('gfort-gmap-block-' + index), elMapOptions);
 
             if (elJSONLoaction === undefined) {
-                elndefinedMarkerimage = 'images/markers/marker-5.png';
+                elndefinedMarkerimage = 'bundles/app/images/markers/marker-5.png';
                 elUndefinedMarker = new google.maps.Marker({
                     position: elMapLatLng,
                     icon: elndefinedMarkerimage
