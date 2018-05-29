@@ -407,6 +407,63 @@
             <!-- CONTACT END-->
             
             
+            
+            
+            
+             <!-- FOOTER BEGIN-->
+              
+            <trans-unit id="footer_about_us" resname="footer_about_us">
+                <source>footer_about_us</source>
+                    <target>ABOUT US</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_about_us_01" resname="footer_about_us_01">
+                <source>footer_about_us_01</source>
+                    <target>Rent my Smart is a peer-to-peer car sharing where travelers to Azores Islands in Portugal, can rent a Smart fortwo car.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="footer_about_us_02" resname="footer_about_us_02">
+                <source>footer_about_us_02</source>
+                    <target>We have the support of several partners such as <![CDATA[<a style='color:#d32f2f' href='https://www.tranquilidade.pt/'>Tranquilidade</a>, <a style='color:#d32f2f' href='http://www.europ-assistance.pt/'>Europ-Assistance</a>, <a style='color:#d32f2f' href='https://www.bookingdrive.com'>BookingDrive</a> and <a style='color:#d32f2f' href='https://www.caramigo.eu'>CarAmigo</a>]]>.</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="footer_reach_us" resname="footer_reach_us">
+                <source>footer_reach_us</source>
+                    <target>REACH US</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="footer_reach_us_email" resname="footer_reach_us_email">
+                <source>footer_reach_us_email</source>
+                    <target>EMAIL</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="footer_reach_us_support" resname="footer_reach_us_support">
+                <source>footer_reach_us_support</source>
+                    <target>Suport</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_reach_us_phone" resname="footer_reach_us_phone">
+                <source>footer_reach_us_phone</source>
+                    <target>PHONE</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_reach_us_location" resname="footer_reach_us_location">
+                <source>footer_reach_us_location</source>
+                    <target>LOCATION</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_reach_us_find_us" resname="footer_reach_us_find_us">
+                <source>footer_reach_us_find_us</source>
+                    <target>FIND US</target>
+            </trans-unit>
+            
+            <!-- FOOTER END-->
+            
                         
         </body>
     </file>

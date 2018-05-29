@@ -4,7 +4,7 @@
 
             <!-- Contact 22
             ==================================================================== -->
-            <div id="contact-section-22" class="contact-section white-section">
+            <div id="contact" class="contact-section white-section">
                 <!-- Section Container -->
                 <div class="section-container">
 
@@ -66,42 +66,40 @@
                                                     </div>
                                                 </div><!-- /End Phone -->
 
-                                                <!-- Choose a car -->
+                                                {#<!-- Choose a car -->
                                                 <div class="col-md-6">
                                                     <div class="form-group">
 
                                                         <select class="gfort-select contact-choose-car" name="contact_choose_car">
-                                              {#              <option data-car-file="json-files/cars/001.json">Fiat 500</option>
+                                                            <option data-car-file="json-files/cars/001.json">Fiat 500</option>
                                                             <option data-car-file="json-files/cars/002.json">VW Polo</option>
                                                             <option data-car-file="json-files/cars/003.json">Peugeot 308</option>
                                                             <option data-car-file="json-files/cars/004.json">MINI</option>
                                                             <option data-car-file="json-files/cars/005.json">Renault Megane Estate</option>
-                                                            <option data-car-file="json-files/cars/006.json">BMW Serie 1</option>#}
+                                                            <option data-car-file="json-files/cars/006.json">BMW Serie 1</option>
                                                             <option>Smart FowTwo</option>
                                                         </select>
 
                                                         <label>{% trans %}contact_client_car{% endtrans %}</label>
 
                                                     </div>
-                                                </div><!-- /End Choose a car -->
+                                                </div><!-- /End Choose a car -->#}
 
                                                 <!-- Pick-up Location -->
                                                 <div class="col-md-6">
                                                     <div class="form-group">
 
                                                         <select class="gfort-select contact-pickup-location" name="contact_pickup_location">
-                                                            <option>184 Rue Saint-Martin</option>
-                                                            <option>75 Rue de Rivoli</option>
-                                                            <option>12 Rue Étienne Marcel</option>
-                                                            <option>58 Rue des Francs Bourgeois</option>
+                                                            <option>Ponta Delgada (City center)</option>
+                                                            <option>Ponta Delgada (Airport)</option>
                                                         </select>
 
-                                                        <label>Pick-up location</label>
+                                                        <label>{% trans %}contact_client_pickup_location{% endtrans %}</label>
 
                                                     </div>
                                                 </div><!-- /End Pick-up Location -->
 
-                                                <!-- Drop-off Location -->
+                                                {#<!-- Drop-off Location -->
                                                 <div class="col-md-6">
                                                     <div class="form-group">
 
@@ -115,7 +113,7 @@
                                                         <label>Drop-off location</label>
 
                                                     </div>
-                                                </div><!-- /End Drop-off Location -->
+                                                </div><!-- /End Drop-off Location -->#}
 
                                                 <!-- Pick-up Date -->
                                                 <div class="col-md-8">
@@ -123,7 +121,7 @@
 
                                                         <input readonly type="text" class="form-control contact-pickup-date date-picker" name="contact_pickup_date">
 
-                                                        <label>Pick-up date</label>
+                                                        <label>{% trans %}contact_client_pickup_date{% endtrans %}</label>
 
                                                     </div>
                                                 </div><!-- /End Pick-up Date -->
@@ -183,7 +181,7 @@
                                                             <option>23:30</option>
                                                         </select>
 
-                                                        <label>Pick-up time</label>
+                                                        <label>{% trans %}contact_client_pickup_time{% endtrans %}</label>
 
                                                     </div>
                                                 </div><!-- /End Pick-up Time -->
@@ -194,7 +192,7 @@
 
                                                         <input readonly type="text" class="form-control contact-dropoff-date date-picker" name="contact_dropoff_date">
 
-                                                        <label>Drop-off date</label>
+                                                        <label>{% trans %}contact_client_dropoff_date{% endtrans %}</label>
 
                                                     </div>
                                                 </div><!-- /End Drop-off Date -->
@@ -254,7 +252,7 @@
                                                             <option>23:30</option>
                                                         </select>
 
-                                                        <label>Drop-off time</label>
+                                                        <label>{% trans %}contact_client_dropoff_time{% endtrans %}</label>
 
                                                     </div>
                                                 </div><!-- /End Drop-off Time -->
@@ -266,18 +264,18 @@
                                                     </div>
                                                 </div><!-- /End Recaptcha -->
 
-                                                <!-- Terms -->
+                                                {#<!-- Terms -->
                                                 <div class="col-md-12">
                                                     <div class="form-group">
                                                         <input type="checkbox" class="form-control contact-terms" name="contact_terms" value="accepted">
-                                                        <label>I have read and agreed to LUNE <a href="#" title="terms and conditions">terms and conditions</a>.</label>
+                                                        <label>{% trans %}contact_client_conditions{% endtrans %} <a href="#" title="terms and conditions">terms and conditions</a>.</label>
                                                     </div>
-                                                </div><!-- /End Terms -->
+                                                </div><!-- /End Terms -->#}
 
                                                 <!-- Submit Button -->
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <button type="submit" class="btn btn-gfort wave-effect">SEND MESSAGE</button>
+                                                        <button type="submit" class="btn btn-gfort wave-effect">{% trans %}contact_client_send_message{% endtrans %}</button>
                                                     </div>
                                                 </div><!-- /End Submit Button -->
                                                 
@@ -308,7 +306,7 @@
                                     </div><!-- /End Image Block -->
 
                                     <!-- Title -->
-                                    <h4>Choose a car from the form to view it's details</h4>
+                                    {#<h4>Choose a car from the form to view it's details</h4>#}
 
                                 </div><!-- /End Car Block Container -->
                             </div><!-- /End Car Block -->

@@ -419,7 +419,67 @@
                     <target>Enviar pedido</target>
             </trans-unit>
             
+            <!-- CONTACT END-->
             
+            
+            
+            
+            
+            
+            
+             <!-- FOOTER BEGIN-->
+              
+            <trans-unit id="footer_about_us" resname="footer_about_us">
+                <source>footer_about_us</source>
+                    <target>SOBRE NÓS</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_about_us_01" resname="footer_about_us_01">
+                <source>footer_about_us_01</source>
+                    <target>Rent my Smart é uma plataforma de partilha de carros Smart fortwo onde os viajantes para as ilhas dos Açores em Portugal, podem alugar um carro Smart fortwo.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="footer_about_us_02" resname="footer_about_us_02">
+                <source>footer_about_us_02</source>
+                    <target>Temos o apoio de vários parceiros como <![CDATA[<a style='color:#d32f2f' href='https://www.tranquilidade.pt/'>Tranquilidade</a>, <a style='color:#d32f2f' href='http://www.europ-assistance.pt/'>Europ-Assistance</a>, <a style='color:#d32f2f' href='https://www.bookingdrive.com'>BookingDrive</a> e <a style='color:#d32f2f' href='https://www.caramigo.eu'>CarAmigo</a>]]>.</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="footer_reach_us" resname="footer_reach_us">
+                <source>footer_reach_us</source>
+                    <target>CONTACTA-NOS</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="footer_reach_us_email" resname="footer_reach_us_email">
+                <source>footer_reach_us_email</source>
+                    <target>EMAIL</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="footer_reach_us_support" resname="footer_reach_us_support">
+                <source>footer_reach_us_support</source>
+                    <target>Suporte</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_reach_us_phone" resname="footer_reach_us_phone">
+                <source>footer_reach_us_phone</source>
+                    <target>TELEFONE</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_reach_us_location" resname="footer_reach_us_location">
+                <source>footer_reach_us_location</source>
+                    <target>LOCALIZAÇÃO</target>
+            </trans-unit>
+            
+            <trans-unit id="footer_reach_us_find_us" resname="footer_reach_us_find_us">
+                <source>footer_reach_us_find_us</source>
+                    <target>ENCONTRA-NOS</target>
+            </trans-unit>
+            
+            <!-- FOOTER END-->
             
             
         </body>

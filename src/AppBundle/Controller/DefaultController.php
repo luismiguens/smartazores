@@ -93,7 +93,9 @@ class DefaultController extends Controller {
     public function contactAction(Request $request, \Swift_Mailer $mailer) {
 
 
-        $email_address = "support@smartazores.com";                     // Your email address
+        //$email_address = "support@smartazores.com";                     // Your email address
+        $email_address = "smartazores@gmail.com";                     // Your email address
+        
         $secret_key = "6LeebVkUAAAAAGqMazcSlKYo45HHA8PUUtyVx0CL";   // Your Captcha secret Key
 
         $form_error = "";
@@ -102,9 +104,11 @@ class DefaultController extends Controller {
         $contact_email = $_POST["contact_email"];
         $contact_phone = $_POST["contact_phone"];
         $contact_subject = "Car Reservation";                       // Your Email Message subject
-        $contact_choose_car = $_POST["contact_choose_car"];
+        //$contact_choose_car = $_POST["contact_choose_car"];
+        $contact_choose_car = "fortwo";
         $contact_pickup_location = $_POST["contact_pickup_location"];
-        $contact_dropoff_location = $_POST["contact_dropoff_location"];
+        //$contact_dropoff_location = $_POST["contact_dropoff_location"];
+        $contact_dropoff_location = $_POST["contact_pickup_location"];
         $contact_pickup_date = $_POST["contact_pickup_date"];
         $contact_pickup_time = $_POST["contact_pickup_time"];
         $contact_dropoff_date = $_POST["contact_dropoff_date"];
@@ -171,13 +175,13 @@ class DefaultController extends Controller {
         /* ==========================================================================
           Choose a car
           ========================================================================== */
-        if (isset($contact_choose_car) && strlen(trim($contact_choose_car)) < 1) {
-            $form_error = "Error Accuore";
-            if (!empty($form_error)) {
-                return new Response('<div class="error-choose-car">Please choose a car.</div>');
-                return false;
-            }
-        }
+//        if (isset($contact_choose_car) && strlen(trim($contact_choose_car)) < 1) {
+//            $form_error = "Error Accuore";
+//            if (!empty($form_error)) {
+//                return new Response('<div class="error-choose-car">Please choose a car.</div>');
+//                return false;
+//            }
+//        }
 
         /* ==========================================================================
           Pick-up Location
@@ -193,13 +197,13 @@ class DefaultController extends Controller {
         /* ==========================================================================
           Drop-off Location
           ========================================================================== */
-        if (isset($contact_dropoff_location) && strlen(trim($contact_dropoff_location)) < 1) {
-            $form_error = "Error Accuore";
-            if (!empty($form_error)) {
-                return new Response('<div class="error-dropoff-location">Please choose Drop-off location.</div>');
-                return false;
-            }
-        }
+//        if (isset($contact_dropoff_location) && strlen(trim($contact_dropoff_location)) < 1) {
+//            $form_error = "Error Accuore";
+//            if (!empty($form_error)) {
+//                return new Response('<div class="error-dropoff-location">Please choose Drop-off location.</div>');
+//                return false;
+//            }
+//        }
 
         /* ==========================================================================
           Pick-up Date
@@ -335,7 +339,7 @@ Drop-off Time:      $contact_dropoff_time
 
         $message = (new \Swift_Message($send_subject))
                 ->setFrom($email_address)
-                ->setTo('luis.t.miguens@gmail.com')
+                ->setTo('smartazores@gmail.com')
                 ->setBody($send_message);
 
 

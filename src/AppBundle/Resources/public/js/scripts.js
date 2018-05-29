@@ -1017,14 +1017,14 @@ jQuery(document).ready(function () {
 
                     /* Choose a car
                     ----------------------------------------------------- */
-                    if (response.match('error-choose-car') !== null) {
-                        el.find('.contact-choose-car').addClass('error');
-                        el.find('.contact-choose-car').next().addClass('error');
-                        el.find('button').removeClass('add-spin');
-                    } else {
-                        el.find('.contact-choose-car').removeClass('error');
-                        el.find('.contact-choose-car').next().removeClass('error');
-                    }
+//                    if (response.match('error-choose-car') !== null) {
+//                        el.find('.contact-choose-car').addClass('error');
+//                        el.find('.contact-choose-car').next().addClass('error');
+//                        el.find('button').removeClass('add-spin');
+//                    } else {
+//                        el.find('.contact-choose-car').removeClass('error');
+//                        el.find('.contact-choose-car').next().removeClass('error');
+//                    }
 
                     /* Pick-up Location
                     ----------------------------------------------------- */
@@ -1039,14 +1039,14 @@ jQuery(document).ready(function () {
 
                     /* Drop-off Location
                     ----------------------------------------------------- */
-                    if (response.match('error-dropoff-location') !== null) {
-                        el.find('.contact-dropoff-location').addClass('error');
-                        el.find('.contact-dropoff-location').next().addClass('error');
-                        el.find('button').removeClass('add-spin');
-                    } else {
-                        el.find('.contact-dropoff-location').removeClass('error');
-                        el.find('.contact-dropoff-location').next().removeClass('error');
-                    }
+//                    if (response.match('error-dropoff-location') !== null) {
+//                        el.find('.contact-dropoff-location').addClass('error');
+//                        el.find('.contact-dropoff-location').next().addClass('error');
+//                        el.find('button').removeClass('add-spin');
+//                    } else {
+//                        el.find('.contact-dropoff-location').removeClass('error');
+//                        el.find('.contact-dropoff-location').next().removeClass('error');
+//                    }
 
                     /* Pick-up Date
                     ----------------------------------------------------- */
@@ -1094,16 +1094,16 @@ jQuery(document).ready(function () {
 
                     /* Terms
                     ----------------------------------------------------- */
-                    if (response.match('error-terms') !== null) {
-                        el.find('.contact-terms').next().addClass('error');
-                        el.find('button').removeClass('add-spin');
-                    }
+//                    if (response.match('error-terms') !== null) {
+//                        el.find('.contact-terms').next().addClass('error');
+//                        el.find('button').removeClass('add-spin');
+//                    }
 
                     /* Captcha
                     ----------------------------------------------------- */
-                    if (response.match('error-captcha') !== null) {
-                        el.find('button').removeClass('add-spin');
-                    }
+//                    if (response.match('error-captcha') !== null) {
+//                        el.find('button').removeClass('add-spin');
+//                    }
 
                     /* Success
                     --------------------------------------------------------- */
