@@ -96,7 +96,9 @@ class DefaultController extends Controller {
         //$email_address = "support@smartazores.com";                     // Your email address
         $email_address = "smartazores@gmail.com";                     // Your email address
         
-        $secret_key = "6LeebVkUAAAAAGqMazcSlKYo45HHA8PUUtyVx0CL";   // Your Captcha secret Key
+        
+        // domain smartazores.com
+        $secret_key = "6LeebVkUAAAAAOABrGAIMd3G9nbWjOeWpO7i_e0x";   // Your Captcha secret Key
 
         $form_error = "";
         $captcha = $_POST["g-recaptcha-response"];
