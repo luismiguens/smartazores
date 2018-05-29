@@ -1101,9 +1101,9 @@ jQuery(document).ready(function () {
 
                     /* Captcha
                     ----------------------------------------------------- */
-//                    if (response.match('error-captcha') !== null) {
-//                        el.find('button').removeClass('add-spin');
-//                    }
+                    if (response.match('error-captcha') !== null) {
+                        el.find('button').removeClass('add-spin');
+                    }
 
                     /* Success
                     --------------------------------------------------------- */

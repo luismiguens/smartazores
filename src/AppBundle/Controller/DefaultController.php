@@ -295,22 +295,22 @@ class DefaultController extends Controller {
         /* ==========================================================================
           Captcha
           ========================================================================== */
-//        if (isset($captcha) && strlen(trim($captcha)) < 1) {
-//            $form_error = "Error Accuore";
-//            if (!empty($form_error)) {
-//                return new Response('<div class="error-captcha">Please verfiy you are not a robot</div>');
-//                return false;
-//            }
-//        } elseif (isset($captcha) && strlen(trim($captcha)) > 1) {
-//            $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secret_key . "&response=" . $captcha);
-//            if (strpos($response, "false") !== false) {
-//                $form_error = "Error Accuore";
-//                if (!empty($form_error)) {
-//                    return new Response('<div class="error-captcha">Check your site keys</div>');
-//                    return false;
-//                }
-//            }
-//        }
+        if (isset($captcha) && strlen(trim($captcha)) < 1) {
+            $form_error = "Error Accuore";
+            if (!empty($form_error)) {
+                return new Response('<div class="error-captcha">Please verfiy you are not a robot</div>');
+                return false;
+            }
+        } elseif (isset($captcha) && strlen(trim($captcha)) > 1) {
+            $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secret_key . "&response=" . $captcha);
+            if (strpos($response, "false") !== false) {
+                $form_error = "Error Accuore";
+                if (!empty($form_error)) {
+                    return new Response('<div class="error-captcha">Check your site keys</div>');
+                    return false;
+                }
+            }
+        }
 
         /* ==========================================================================
           Send Message
