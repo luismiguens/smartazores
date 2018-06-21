@@ -94,12 +94,17 @@ class DefaultController extends Controller {
 
 
         //$email_address = "support@smartazores.com";                     // Your email address
-        $email_address = "smartazores@gmail.com";                     // Your email address
+        $email_address = "support@rentmysmart.com";                     // Your email address
         
         
         // domain smartazores.com
-        $secret_key = "6LeebVkUAAAAAOABrGAIMd3G9nbWjOeWpO7i_e0x";   // Your Captcha secret Key
+        //$secret_key = "6LeebVkUAAAAAOABrGAIMd3G9nbWjOeWpO7i_e0x";   // Your Captcha secret Key
 
+        
+        //domain rentmysmart.com
+        $secret_key = "6LdKImAUAAAAAMnl8DcNe4xWd6OMkBM1mQBp1r6N";
+        
+        
         $form_error = "";
         $captcha = $_POST["g-recaptcha-response"];
         $contact_name = $_POST["contact_name"];
@@ -341,7 +346,7 @@ Drop-off Time:      $contact_dropoff_time
 
         $message = (new \Swift_Message($send_subject))
                 ->setFrom($email_address)
-                ->setTo('smartazores@gmail.com')
+                ->setTo('support@rentmysmart.com')
                 ->setBody($send_message);
 
 
