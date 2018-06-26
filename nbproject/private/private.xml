@@ -5,11 +5,6 @@
         <group>
             <file>file:/home/luis/sfprojects/smartazores/app/config/parameters.yml</file>
             <file>file:/home/luis/sfprojects/smartazores/src/AppBundle/Controller/DefaultController.php</file>
-            <file>file:/home/luis/sfprojects/smartazores/src/AppBundle/Controller/ContactController.php</file>
-            <file>file:/home/luis/sfprojects/smartazores/src/AppBundle/Resources/public/js/scripts.js</file>
-            <file>file:/home/luis/sfprojects/smartazores/app/Resources/views/partials/footer.html.twig</file>
-            <file>file:/home/luis/sfprojects/smartazores/app/Resources/views/partials/contact.html.twig</file>
-            <file>file:/home/luis/sfprojects/smartazores/app/Resources/views/partials/header.html.twig</file>
         </group>
     </open-files>
 </project-private>
