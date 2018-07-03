@@ -95,9 +95,26 @@
                             </div><!-- /End Widget Block ( Google Map ) -->
 
 
-                        </div><!-- /End row -->
-                    </div><!-- /End container -->
-
 
                 </div><!-- /End Section Container -->
+                
+                
+                <!-- container -->
+                    <div class="container">
+                        <!-- row -->
+                        <div class="row" style="text-align: center">
+                            <hr>
+                            Choose your language: <br/>
+                            
+                            {#{% if app.request.locale == "en" %}#}
+                        <a href="{{ path('homepage', { '_locale': 'pt' }) }}">Português</a> |
+                    {#{% else %}#}
+                        <a  href="{{ path('homepage', { '_locale': 'en' }) }}">English</a>
+                    {#{% endif %}#}
+                            
+                            
+ 
+                        </div><!-- /End row -->
+                    </div><!-- /End container -->
+                
             </footer><!-- /End Footer 6 -->

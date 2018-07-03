@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if IE 9 ]>    <html lang="{{app.request.locale}}" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{app.request.locale}}" class="no-js"> <!--<![endif]-->
 
 
     <!-- head
     ============================================================================ -->
     <head>
 
-
+<!-- hreflang for language -->
+            <link rel="alternate" hreflang="pt" href="{{ path('homepage', { '_locale': 'pt' }) }}" />
+    <link rel="alternate" hreflang="en" href="{{ path('homepage', { '_locale': 'en' }) }}" />
+        <meta itemprop="inLanguage" content="{{app.request.locale}}" />
 
         
 
@@ -15,11 +18,11 @@
         ======================================================================== -->
         <title>Rent my Smart - Rent a Smart ForTwo car in São Miguel Island, Azores, Portugal</title>
         <meta charset="utf-8" />
-        <meta name="author" content="Graphicfort" />
+        <meta name="author" content="Luis Miguens" />
         <meta name="robots" content="index follow" />
         <meta name="googlebot" content="index follow" />
-        <meta name="keywords" content="LUNE, HTML5, CSS3, Creative, Landing Page, Pack, Template, Create a website fast" />
-        <meta name="description" content="up to 35% less than traditional rent a cars" />
+        <meta name="keywords" content="azores, smart, car, rental, sharing, car rental, company " />
+        <meta name="description" content="Smart car rental in azores portugal" />
 
         <!-- Mobile Configurations
         ======================================================================== -->
