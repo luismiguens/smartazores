@@ -350,7 +350,7 @@ Drop-off Time:      $contact_dropoff_time
 
         $message = (new \Swift_Message($send_subject))
                 ->setFrom($email_address)
-                ->setTo('support@rentmysmart.com')
+                ->setTo('support@smart2rent.com')
                 ->setBody($send_message);
 
 
