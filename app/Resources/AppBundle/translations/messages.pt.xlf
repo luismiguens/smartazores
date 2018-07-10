@@ -11,17 +11,17 @@
             
             <trans-unit id="header_logo_title" resname="header_logo_title">
                 <source>header_logo_title</source>
-                <target>Aluga o meu Smart nos Açores</target>
+                <target>Smart para aluguer nos Açores</target>
             </trans-unit>
             
             <trans-unit id="header_call_me" resname="header_call_me">
                 <source>header_call_me</source>
-                <target>LIGA-ME</target>
+                <target>LIGA-NOS</target>
             </trans-unit>
             
             <trans-unit id="header_contact_me" resname="header_contact_me">
                 <source>header_contact_me</source>
-                <target>CONTACTA-ME</target>
+                <target>CONTACTA-NOS</target>
             </trans-unit>
             
             <trans-unit id="header_working_hours" resname="header_working_hours">
@@ -69,7 +69,7 @@
             
             <trans-unit id="hero_title" resname="hero_title">
                 <source>hero_title</source>
-                <target>ALUGA O MEU SMART</target>
+                <target>SMART2RENT</target>
             </trans-unit>
             
             
@@ -98,7 +98,7 @@
             <!-- SINGLE BEGIN -->
             <trans-unit id="single_title" resname="single_title">
                 <source>single_title</source>
-                <target>Fotografias do meu Smart ForTwo</target>
+                <target>Fotografias dos nossos Smart ForTwo</target>
             </trans-unit>
             
             
@@ -163,7 +163,7 @@
 
             <trans-unit id="services_description" resname="services_description">
                 <source>services_description</source>
-                <target>Enquanto descobres a ilha de São Miguel nos Açores, diverte-te com o nosso Smart! Diverte-te a conduzir, a estacionar, a virar e assume uma personagem!</target>
+                <target>Enquanto descobres a ilha de São Miguel nos Açores, diverte-te com um dos nossos Smart! Diverte-te a conduzir, a estacionar, a virar e assume uma personagem!</target>
             </trans-unit>
                
                
@@ -238,7 +238,7 @@
             
             <trans-unit id="testimonials_description" resname="testimonials_description">
                 <source>testimonials_description</source>
-                <target>O que dizem as pessoas que alugaram o meu Smart para visitarem a ilha de São Miguel nos Açores</target>
+                <target>O que dizem as pessoas que alugaram um dos nossos Smart para visitarem a ilha de São Miguel nos Açores</target>
             </trans-unit>
             
             
@@ -290,46 +290,46 @@
             
             <trans-unit id="pricing_plan_01" resname="pricing_plan_01">
                 <source>pricing_plan_01</source>
-                    <target>EPOCA BAIXA</target>
+                <target>EPOCA BAIXA</target>
             </trans-unit>
             
             
-              <trans-unit id="pricing_plan_02" resname="pricing_plan_02">
+            <trans-unit id="pricing_plan_02" resname="pricing_plan_02">
                 <source>pricing_plan_02</source>
-                    <target>EPOCA MEDIA</target>
+                <target>EPOCA MEDIA</target>
             </trans-unit>
             
-              <trans-unit id="pricing_plan_03" resname="pricing_plan_03">
+            <trans-unit id="pricing_plan_03" resname="pricing_plan_03">
                 <source>pricing_plan_03</source>
-                    <target>EPOCA ALTA</target>
+                <target>EPOCA ALTA</target>
             </trans-unit>
             
             
-             <trans-unit id="pricing_plan_description_01" resname="pricing_plan_description_01">
+            <trans-unit id="pricing_plan_description_01" resname="pricing_plan_description_01">
                 <source>pricing_plan_description_01</source>
-                    <target>Entre os meses de Outubro e Março.</target>
+                <target>Entre os meses de Outubro e Março.</target>
             </trans-unit>
             
             
-              <trans-unit id="pricing_plan_description_02" resname="pricing_plan_description_02">
+            <trans-unit id="pricing_plan_description_02" resname="pricing_plan_description_02">
                 <source>pricing_plan_description_02</source>
-                    <target>Entre os meses de Abril e Junho.</target>
+                <target>Entre os meses de Abril e Junho.</target>
             </trans-unit>
             
-              <trans-unit id="pricing_plan_description_03" resname="pricing_plan_description_03">
+            <trans-unit id="pricing_plan_description_03" resname="pricing_plan_description_03">
                 <source>pricing_plan_description_03</source>
-                    <target>Entre os meses de Julho e Setembro.</target>
+                <target>Entre os meses de Julho e Setembro.</target>
             </trans-unit>
             
             
             <trans-unit id="pricing_day" resname="pricing_day">
                 <source>pricing_day</source>
-                    <target>day</target>
+                <target>day</target>
             </trans-unit>
             
             <trans-unit id="pricing_now" resname="pricing_now">
                 <source>pricing_now</source>
-                    <target>agora</target>
+                <target>agora</target>
             </trans-unit>
             
             <!-- PRICING END -->
@@ -338,85 +338,85 @@
             
             
             
-                 <!-- CONTACT BEGIN-->
-             <trans-unit id="contact_title" resname="contact_title">
+            <!-- CONTACT BEGIN-->
+            <trans-unit id="contact_title" resname="contact_title">
                 <source>contact_title</source>
-                    <target>Pedido de aluger</target>
+                <target>Pedido de aluger</target>
             </trans-unit>
             
             
             
             <trans-unit id="contact_client_name" resname="contact_client_name">
                 <source>contact_client_name</source>
-                    <target>Nome</target>
+                <target>Nome</target>
             </trans-unit>
             
             
             
             <trans-unit id="contact_client_email" resname="contact_client_email">
                 <source>contact_client_email</source>
-                    <target>Endereço email</target>
+                <target>Endereço email</target>
             </trans-unit>
             
-             <trans-unit id="contact_client_phone" resname="contact_client_phone">
+            <trans-unit id="contact_client_phone" resname="contact_client_phone">
                 <source>contact_client_phone</source>
-                    <target>Telefone</target>
+                <target>Telefone</target>
             </trans-unit>
             
             
-             <trans-unit id="contact_client_car" resname="contact_client_car">
+            <trans-unit id="contact_client_car" resname="contact_client_car">
                 <source>contact_client_car</source>
-                    <target>Escolha o carro</target>
+                <target>Escolha o carro</target>
             </trans-unit>
             
             
             
-             <trans-unit id="contact_client_pickup_location" resname="contact_client_pickup_location">
+            <trans-unit id="contact_client_pickup_location" resname="contact_client_pickup_location">
                 <source>contact_client_pickup_location</source>
-                    <target>Local levantamento</target>
+                <target>Local levantamento</target>
             </trans-unit>
             
             
             
-             <trans-unit id="contact_client_pickup_date" resname="contact_client_pickup_date">
+            <trans-unit id="contact_client_pickup_date" resname="contact_client_pickup_date">
                 <source>contact_client_pickup_date</source>
-                    <target>Data levantamento</target>
+                <target>Data levantamento</target>
             </trans-unit>
                        
             
-             <trans-unit id="contact_client_pickup_time" resname="contact_client_pickup_time">
+            <trans-unit id="contact_client_pickup_time" resname="contact_client_pickup_time">
                 <source>contact_client_pickup_time</source>
-                    <target>Hora levantamento</target>
+                <target>Hora levantamento</target>
             </trans-unit>
             
             
             
             <trans-unit id="contact_client_dropoff_location" resname="contact_client_dropoff_location">
                 <source>contact_client_dropoff_location</source>
-                    <target>Local entrega</target>
+                <target>Local entrega</target>
             </trans-unit>
             
             
             <trans-unit id="contact_client_dropoff_date" resname="contact_client_dropoff_date">
                 <source>contact_client_dropoff_date</source>
-                    <target>Data entrega</target>
+                <target>Data entrega</target>
             </trans-unit>
             
             
             <trans-unit id="contact_client_dropoff_time" resname="contact_client_dropoff_time">
                 <source>contact_client_dropoff_time</source>
-                    <target>Hora entrega</target>
+                <target>Hora entrega</target>
             </trans-unit>
             
             
             <trans-unit id="contact_client_conditions" resname="contact_client_conditions">
                 <source>contact_client_conditions</source>
-                    <target>Eu li e concordo com os termos e condições da Rent my Smart.</target>
+                <target>Eu li e concordo com os termos e condições da SMART2RENT.</target>
             </trans-unit>
             
             <trans-unit id="contact_client_send_message" resname="contact_client_send_message">
                 <source>contact_client_send_message</source>
-                    <target>Enviar pedido</target>
+                <target>Enviar pedido</target>
             </trans-unit>
             
             <!-- CONTACT END-->
@@ -427,59 +427,80 @@
             
             
             
-             <!-- FOOTER BEGIN-->
+            <!-- FOOTER BEGIN-->
               
             <trans-unit id="footer_about_us" resname="footer_about_us">
                 <source>footer_about_us</source>
-                    <target>SOBRE NÓS</target>
+                <target>SOBRE NÓS</target>
             </trans-unit>
             
             <trans-unit id="footer_about_us_01" resname="footer_about_us_01">
                 <source>footer_about_us_01</source>
-                    <target>Rent my Smart é uma plataforma de partilha de carros Smart fortwo onde os viajantes para as ilhas dos Açores em Portugal, podem alugar um carro Smart fortwo.</target>
+                <target>SMART2RENT é uma plataforma de partilha de carros Smart fortwo onde os viajantes para as ilhas dos Açores em Portugal, podem alugar um carro Smart fortwo.</target>
             </trans-unit>
             
             
             <trans-unit id="footer_about_us_02" resname="footer_about_us_02">
                 <source>footer_about_us_02</source>
-                    <target>Temos o apoio de vários parceiros como <![CDATA[<a style='color:#d32f2f' href='https://www.tranquilidade.pt/'>Tranquilidade</a>, <a style='color:#d32f2f' href='http://www.europ-assistance.pt/'>Europ-Assistance</a>, <a style='color:#d32f2f' href='https://www.bookingdrive.com'>BookingDrive</a> e <a style='color:#d32f2f' href='https://www.caramigo.eu'>CarAmigo</a>]]>.</target>
+                <target>Temos o apoio de vários parceiros como <![CDATA[<a style='color:#d32f2f' href='https://www.tranquilidade.pt/'>Tranquilidade</a>, <a style='color:#d32f2f' href='http://www.europ-assistance.pt/'>Europ-Assistance</a>, <a style='color:#d32f2f' href='https://www.bookingdrive.com'>BookingDrive</a> e <a style='color:#d32f2f' href='https://www.caramigo.eu'>CarAmigo</a>]]>.</target>
             </trans-unit>
             
             
             
             <trans-unit id="footer_reach_us" resname="footer_reach_us">
                 <source>footer_reach_us</source>
-                    <target>CONTACTA-NOS</target>
+                <target>CONTACTA-NOS</target>
             </trans-unit>
             
             
             <trans-unit id="footer_reach_us_email" resname="footer_reach_us_email">
                 <source>footer_reach_us_email</source>
-                    <target>EMAIL</target>
+                <target>EMAIL</target>
             </trans-unit>
             
             
             <trans-unit id="footer_reach_us_support" resname="footer_reach_us_support">
                 <source>footer_reach_us_support</source>
-                    <target>Suporte</target>
+                <target>Suporte</target>
             </trans-unit>
             
             <trans-unit id="footer_reach_us_phone" resname="footer_reach_us_phone">
                 <source>footer_reach_us_phone</source>
-                    <target>TELEFONE</target>
+                <target>TELEFONE</target>
             </trans-unit>
             
             <trans-unit id="footer_reach_us_location" resname="footer_reach_us_location">
                 <source>footer_reach_us_location</source>
-                    <target>LOCALIZAÇÃO</target>
+                <target>LOCALIZAÇÃO</target>
             </trans-unit>
             
             <trans-unit id="footer_reach_us_find_us" resname="footer_reach_us_find_us">
                 <source>footer_reach_us_find_us</source>
-                    <target>ENCONTRA-NOS</target>
+                <target>ENCONTRA-NOS</target>
             </trans-unit>
             
             <!-- FOOTER END-->
+            
+            
+            
+            
+            <trans-unit id="website_title" resname="website_title">
+                <source>website_title</source>
+                <target>SMART2RENT - Aluga um carro Smart ForTwo na ilha de São Miguel, Açores, Portugal</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="website_keywords" resname="website_keywords">
+                <source>website_keywords</source>
+                <target>smart, carro, aluguer, partilha, rent a car, empresa, açores, portugal</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="website_description" resname="website_description">
+                <source>website_description</source>
+                <target>Aluga um carro Smart fortwo em Ponta Delgada, Açores, Portugal e diverte-te na tua visita aos Açores.</target>
+            </trans-unit>
             
             
         </body>

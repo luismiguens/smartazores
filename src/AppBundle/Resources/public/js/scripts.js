@@ -33,7 +33,10 @@ mailchimpListURL = 'http://Graphicfort.us11.list-manage.com/subscribe/post?u=dff
 
 // Your Website recaptcha Key
 //recaptchaSiteKey = '6LdHCQwTAAAAAK0HvYvQJ5oA_9W-vlv5A41xBEGp';
-recaptchaSiteKey = '6LdKImAUAAAAAIwax8oM-OazE9mnAZWc5Gry7rcd';
+//recaptchaSiteKey = '6LdKImAUAAAAAIwax8oM-OazE9mnAZWc5Gry7rcd';
+
+recaptchaSiteKey = '6LdaXmMUAAAAAO10jmHjRLjDdnvpDz6AHxUII_J9';
+
 
 // Change $ to any currency symbol you want
 donationSymbol = '$';

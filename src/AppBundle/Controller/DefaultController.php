@@ -94,7 +94,7 @@ class DefaultController extends Controller {
 
 
         //$email_address = "support@smartazores.com";                     // Your email address
-        $email_address = "support@rentmysmart.com";                     // Your email address
+        $email_address = "support@smart2rent.com";                     // Your email address
         
         
         // domain smartazores.com
@@ -102,7 +102,11 @@ class DefaultController extends Controller {
 
         
         //domain rentmysmart.com
-        $secret_key = "6LdKImAUAAAAAMnl8DcNe4xWd6OMkBM1mQBp1r6N";
+        //$secret_key = "6LdKImAUAAAAAMnl8DcNe4xWd6OMkBM1mQBp1r6N";
+        
+        //domain smart2rent.com
+        $secret_key = "6LdaXmMUAAAAAAlkQabXgxH50o-fuIkRdRf0Jn6z";
+        
         
         
         $form_error = "";
