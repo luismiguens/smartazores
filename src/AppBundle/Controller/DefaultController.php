@@ -12,7 +12,7 @@ class DefaultController extends Controller {
     public function indexAction(Request $request) {
         $host = $request->headers->get('host');
 
-        echo $host;
+        //echo $host;
 
         if ($host == 'carsharingazores.com' ||
                 $host == 'rent-a-car-ponta-delgada.com' ||
