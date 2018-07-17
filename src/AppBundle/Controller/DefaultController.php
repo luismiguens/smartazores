@@ -10,27 +10,21 @@ use Symfony\Component\Validator\Constraints\DateTime;
 class DefaultController extends Controller {
 
     public function indexAction(Request $request) {
-
-
-
-
-
-
-
         $host = $request->headers->get('host');
 
-        //echo $host;
+        echo $host;
 
+        if ($host == 'carsharingazores.com' ||
+                $host == 'rent-a-car-ponta-delgada.com' ||
+                $host == 'car_rental_azores.com' ||
+                $host == 'smartazores.com' ||
+                $host == 'rentmysmart.com' ||
+                $host == '127.0.0.1:8000'):
 
-        if ($host == 'carsharingazores.com'):
-            $template = 'default/car_sharing_azores.html.twig';
-        elseif ($host == 'rent-a-car-ponta-delgada.com'):
-            $template = 'default/rent_a_car_ponta_delgada.html.twig';
-        elseif ($host == 'car_rental_azores.com'):
-            $template = 'default/car_rental_azores.html.twig';
-        else:
-            $template = 'default/index.html.twig';
+            return $this->redirect('http://smart2rent.com');
         endif;
+
+
 
 
 
@@ -38,11 +32,11 @@ class DefaultController extends Controller {
             array("title" => "Caldeira Velha", "img_link" => "banana", "description" => "description"),
             array("title" => "Cozido das Furnas", "img_link" => "banana", "description" => "description"),
             array("title" => "Ermida nossa Senhora do Monte Santo", "img_link" => "banana", "description" => "description"),
-            array("title" => "Estufas de Ananases", "img_link"=> "banana", "description" => "description"),
-            array("title" => "Fumarolas das Furnas", "img_link"=> "banana", "description" => "description"),
+            array("title" => "Estufas de Ananases", "img_link" => "banana", "description" => "description"),
+            array("title" => "Fumarolas das Furnas", "img_link" => "banana", "description" => "description"),
             array("title" => "Fábrica de chá da Gorreana", "img_link" => "banana", "description" => "description"),
             array("title" => "Gruta do Carvão", "img_link" => "banana", "description" => "description"),
-            array("title" => "Igreja Senhora da Vitória", "img_link"=> "banana", "description" => "description"),
+            array("title" => "Igreja Senhora da Vitória", "img_link" => "banana", "description" => "description"),
             array("title" => "Ilheu Vila Franca do Campo", "img_link" => "banana", "description" => "description"),
             array("title" => "Lagoa das Furnas", "img_link" => "banana", "description" => "description"),
             array("title" => "Lagoa das Sete Cidades", "img_link" => "banana", "description" => "description"),
@@ -95,20 +89,15 @@ class DefaultController extends Controller {
 
         //$email_address = "support@smartazores.com";                     // Your email address
         $email_address = "support@smart2rent.com";                     // Your email address
-        
-        
         // domain smartazores.com
         //$secret_key = "6LeebVkUAAAAAOABrGAIMd3G9nbWjOeWpO7i_e0x";   // Your Captcha secret Key
-
-        
         //domain rentmysmart.com
         //$secret_key = "6LdKImAUAAAAAMnl8DcNe4xWd6OMkBM1mQBp1r6N";
-        
         //domain smart2rent.com
         $secret_key = "6LdaXmMUAAAAAAlkQabXgxH50o-fuIkRdRf0Jn6z";
-        
-        
-        
+
+
+
         $form_error = "";
         $captcha = $_POST["g-recaptcha-response"];
         $contact_name = $_POST["contact_name"];
@@ -360,8 +349,6 @@ Drop-off Time:      $contact_dropoff_time
         } else {
             return new Response('Please make sure PHP mail() is enabled.');
         }
-
-
     }
 
     function emailAction(Request $request, \Swift_Mailer $mailer) {
