@@ -21,7 +21,7 @@ class DefaultController extends Controller {
                 $host == 'rentmysmart.com' ||
                 $host == '127.0.0.1:8000'):
 
-            //return $this->redirect('http://smart2rent.com');
+            return $this->redirect('http://smart2rent.com');
         endif;
 
 
