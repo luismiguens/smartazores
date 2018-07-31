@@ -691,7 +691,7 @@
                         
             <trans-unit id="website_keywords" resname="website_keywords">
                 <source>website_keywords</source>
-                <target>smart, car, rental, sharing, car rental, company, azores, portugal</target>
+                <target>smart, car, rental, fortwo, ponta delgada, são miguel, açores, portugal</target>
             </trans-unit>   
             
             <trans-unit id="website_description" resname="website_description">
