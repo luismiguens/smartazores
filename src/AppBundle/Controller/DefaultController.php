@@ -21,7 +21,7 @@ class DefaultController extends Controller {
                 $host == 'rentmysmart.com' ||
                 $host == '127.0.0.1:8000'):
 
-            return $this->redirect('http://smart2rent.com');
+            //return $this->redirect('http://smart2rent.com');
         endif;
 
 
@@ -29,51 +29,40 @@ class DefaultController extends Controller {
 
 
         $trips = array(
-            array("title" => "Caldeira Velha", "img_link" => "banana", "description" => "description"),
-            array("title" => "Cozido das Furnas", "img_link" => "banana", "description" => "description"),
-            array("title" => "Ermida nossa Senhora do Monte Santo", "img_link" => "banana", "description" => "description"),
-            array("title" => "Estufas de Ananases", "img_link" => "banana", "description" => "description"),
-            array("title" => "Fumarolas das Furnas", "img_link" => "banana", "description" => "description"),
-            array("title" => "Fábrica de chá da Gorreana", "img_link" => "banana", "description" => "description"),
-            array("title" => "Gruta do Carvão", "img_link" => "banana", "description" => "description"),
-            array("title" => "Igreja Senhora da Vitória", "img_link" => "banana", "description" => "description"),
-            array("title" => "Ilheu Vila Franca do Campo", "img_link" => "banana", "description" => "description"),
-            array("title" => "Lagoa das Furnas", "img_link" => "banana", "description" => "description"),
-            array("title" => "Lagoa das Sete Cidades", "img_link" => "banana", "description" => "description"),
-            array("title" => "Lagoa do Fogo", "img_link" => "banana", "description" => "description"),
-            array("title" => "Miradouro Lagoa do Canário", "img_link" => "banana", "description" => "description"),
-            array("title" => "Miradouro Pico do Ferro", "img_link" => "banana", "description" => "description"),
-            array("title" => "Miradouro Ponta do Sossego", "img_link" => "banana", "description" => "description"),
-            array("title" => "Miradouro Vista do Rei", "img_link" => "banana", "description" => "description"),
-            array("title" => "Parque Terra Nostra", "img_link" => "banana", "description" => "description"),
-            array("title" => "Ponta da Ferraria", "img_link" => "banana", "description" => "description"),
-            array("title" => "Poça da Dona Beija", "img_link" => "banana", "description" => "description"),
-            array("title" => "Salto do Prego", "img_link" => "banana", "description" => "description"),
-            array("title" => "Whale Watching", "img_link" => "banana", "description" => "description"),
+            array("img_link" => "Caldeira Velha", "title" => "trips_title_01", "description"=>"trips_description_01"  ),
+            array("img_link" => "Cozido das Furnas", "title" => "trips_title_02", "description"=>"trips_description_02"  ),
+            array("img_link" => "Ermida nossa Senhora do Monte Santo", "title" => "trips_title_03", "description"=>"trips_description_03"  ),
+            array("img_link" => "Estufas de Ananases", "title" => "trips_title_04", "description"=>"trips_description_04"  ),
+            array("img_link" => "Fumarolas das Furnas", "title" => "trips_title_05", "description"=>"trips_description_05"  ),
+            array("img_link" => "Fábrica de chá da Gorreana", "title" => "trips_title_06", "description"=>"trips_description_06"  ),
+            array("img_link" => "Gruta do Carvão", "title" => "trips_title_07", "description"=>"trips_description_07"  ),
+            array("img_link" => "Ponta da Ferraria", "title" => "trips_title_08", "description"=>"trips_description_08"  ),
+            array("img_link" => "Igreja Senhora da Vitória", "title" => "trips_title_09", "description"=>"trips_description_09"  ),
+            array("img_link" => "Ilheu Vila Franca do Campo", "title" => "trips_title_10", "description"=>"trips_description_10"  ),
+            array("img_link" => "Lagoa das Furnas", "title" => "trips_title_11", "description"=>"trips_description_11"  ),
+            array("img_link" => "Lagoa das Sete Cidades", "title" => "trips_title_12", "description"=>"trips_description_12"  ),
+            array("img_link" => "Lagoa do Fogo", "title" => "trips_title_13", "description"=>"trips_description_13"  ),
+            array("img_link" => "Miradouro Lagoa do Canário", "title" => "trips_title_14", "description"=>"trips_description_14"  ),
+            array("img_link" => "Miradouro Pico do Ferro", "title" => "trips_title_15", "description"=>"trips_description_15"  ),
+            array("img_link" => "Miradouro Ponta do Sossego", "title" => "trips_title_16", "description"=>"trips_description_16"  ),
+            array("img_link" => "Miradouro Vista do Rei", "title" => "trips_title_17", "description"=>"trips_description_17"  ),
+            array("img_link" => "Parque Terra Nostra", "title" => "trips_title_18", "description"=>"trips_description_18"  ),
+            
+            //array("img_link" => "Poça da Dona Beija", "title" => "trips_title_18", "description"=>"trips_description_18"  ),
+//            array("title" => "Salto do Prego", "title" => "trips_title_01", "description"=>"trips_description_01"  ),
+//            array("title" => "Whale Watching", "title" => "trips_title_01", "description"=>"trips_description_01"  ),
         );
 
 
+        
 
         foreach ($trips as $key => $value) {
 
-            $trips[$key]['img_link'] = strtolower(str_replace(' ', '-', $value['title'])) . ".jpg";
+            $trips[$key]['img_link'] = strtolower(str_replace(' ', '-', $value['img_link'])) . ".jpg";
             //$value['img_link'] = strtolower(str_replace(' ', '-', $value['title'])).".jpg";
         }
 
-//$contact = new Contact();
-//        $form = $this->createForm('AppBundle\Form\ContactType', $contact);
-//        $form->handleRequest($request);
-//        if ($form->isSubmitted() && $form->isValid()) {
-//            $em = $this->getDoctrine()->getManager();
-//            $em->persist($contact);
-//            $em->flush();
-//            
-//             $this->get('session')->getFlashBag()->add(
-//                    'notice', 'Reserva criada com sucesso!'
-//            );
-//
-//            return $this->redirectToRoute('homepage', array('trips'=>$trips));
-//        }
+
 
         return $this->render('default/index.html.twig', array(
 //            'contact' => $contact,

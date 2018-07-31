@@ -9,7 +9,7 @@ backend:
 
 homepage:
     path:      /{_locale}
-    defaults:  { _controller: AppBundle:Default:index, _locale: en }
+    defaults:  { _controller: AppBundle:Default:index, _locale: pt }
     requirements:
         _locale:  en|pt
     

@@ -224,7 +224,228 @@
                 <target>A lista de atracções turisticas que te propomos abaixo também são Smart! São as propostas de quem vive há muitos anos apaixonado pela Ilha de São Miguel nos Açores. Diverte-te!</target>
             </trans-unit>
              
+            
+            <trans-unit id="trips_title_01" resname="trips_title_01">
+                <source>trips_title_01</source>
+                <target>Caldeira Velha</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_01" resname="trips_description_01">
+                <source>trips_description_01</source>
+                <target>Cascata de água quente férrea onde se pode tomar banho, localizada na encosta da Serra de Água de Pau.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_02" resname="trips_title_02">
+                <source>trips_title_02</source>
+                <target>Cozido das Furnas</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_02" resname="trips_description_02">
+                <source>trips_description_02</source>
+                <target>Cozido nas caldeiras naturais da Lagoa das Furnas, é um dos pratos mais emblemáticos da ilha de São Miguel.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_03" resname="trips_title_03">
+                <source>trips_title_03</source>
+                <target>Ermida nossa Senhora do Monte Santo</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_03" resname="trips_description_03">
+                <source>trips_description_03</source>
+                <target>Situada no alto do Pico da Figueira, a ermida de Nossa Senhora do Monte Santo proporciona uma ampla vista sobre a vila de Água de Pau.</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="trips_title_04" resname="trips_title_04">
+                <source>trips_title_04</source>
+                <target>Estufas de Ananases</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_04" resname="trips_description_04">
+                <source>trips_description_04</source>
+                <target>Nesta plantação de Ananases podemos ver as estufas com os diversos estágios da planta/fruto e os "processos" para realizar os famosos frutos.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_05" resname="trips_title_05">
+                <source>trips_title_05</source>
+                <target>Fumarolas das Furnas</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_05" resname="trips_description_05">
+                <source>trips_description_05</source>
+                <target>Na vila das Furnas pode ver as caldeiras em ebulição, com géisers de água fervente e pequenas fontes, de onde brotam águas minerais, que deixam um rasto cor de laranja.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_06" resname="trips_title_06">
+                <source>trips_title_06</source>
+                <target>Fábrica de chá da Gorreana</target>
+            </trans-unit>
+                        
+                        
+            <trans-unit id="trips_description_06" resname="trips_description_06">
+                <source>trips_description_06</source>
+                <target>Na mais antiga plantação de chá da Europa, vai poder entrar na fábrica e ver de perto todas as máquinas usadas no fabrico do chá.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_07" resname="trips_title_07">
+                <source>trips_title_07</source>
+                <target>Gruta do Carvão</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_07" resname="trips_description_07">
+                <source>trips_description_07</source>
+                <target>A Gruta do Carvão é o maior túnel lávico conhecido na ilha de São Miguel, com 1912 m de extensão e repartida por 4 troços.</target>
+            </trans-unit>
+            
+            
+             <trans-unit id="trips_title_08" resname="trips_title_08">
+                <source>trips_title_08</source>
+                <target>Ponta da Ferraria</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_08" resname="trips_description_08">
+                <source>trips_description_08</source>
+                <target>Uma fajã lávica localizada na freguesia dos Ginetes onde uma nascente de água quente de origem vulcânica que se mistura com o mar e que permite tomar banho a mais de 40 graus em pleno oceano!</target>
+            </trans-unit>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <trans-unit id="trips_title_09" resname="trips_title_09">
+                <source>trips_title_09</source>
+                <target>Igreja Senhora da Vitória</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_09" resname="trips_description_09">
+                <source>trips_description_09</source>
+                <target>Uma das construções mais imponentes de todo o arquipélago dos Açores é a Capela de Nossa Senhora das Vitórias, nas Furnas, na Ilha de São Miguel.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_10" resname="trips_title_10">
+                <source>trips_title_10</source>
+                <target>Ilheu Vila Franca do Campo</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_10" resname="trips_description_10">
+                <source>trips_description_10</source>
+                <target>Cratera de um antigo vulcão submarino, este ilheu é de visita obrigatória, um encanto de paisagem e de cores situado na Vila Franca do Campo. </target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_11" resname="trips_title_11">
+                <source>trips_title_11</source>
+                <target>Lagoa das Furnas</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_11" resname="trips_description_11">
+                <source>trips_description_11</source>
+                <target>Está rodeada de vegetação e com uma grande riqueza de fauna e flora. Num dos pontos da Lagoa estão buracos no chão vulcânico, onde se colocam os cozinhados, dentro de tachos.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_12" resname="trips_title_12">
+                <source>trips_title_12</source>
+                <target>Lagoa das Sete Cidades</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_12" resname="trips_description_12">
+                <source>trips_description_12</source>
+                <target>Uma das 7 Maravilhas Naturais de Portugal, onde se inserem as lagoas Verde e Azul, formadas, segundo a lenda, das lágrimas derramadas de um pastor e de uma princesa que viviam um amor proibido. </target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_13" resname="trips_title_13">
+                <source>trips_title_13</source>
+                <target>Lagoa do Fogo</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_13" resname="trips_description_13">
+                <source>trips_description_13</source>
+                <target>São sempre poucas as palavras para definir o quanto bonita e majestosa é a Lagoa do Fogo. O seu azul em perfeita harmonia com o verde que a ladeia, torna esta lagoa mágica.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_14" resname="trips_title_14">
+                <source>trips_title_14</source>
+                <target>Miradouro Lagoa do Canário</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_14" resname="trips_description_14">
+                <source>trips_description_14</source>
+                <target>O Miradouro da Grota do Inferno (conhecido também por Miradouro da Boca do Inferno) é um dos mais conhecidos e utilizados na promoção turística dos Açores. </target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_15" resname="trips_title_15">
+                <source>trips_title_15</source>
+                <target>Miradouro Pico do Ferro</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_15" resname="trips_description_15">
+                <source>trips_description_15</source>
+                <target>Uma excelente visão da lagoa das Furnas, donde se vislumbra toda a deslumbrante beleza do Vale das Furnas.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_16" resname="trips_title_16">
+                <source>trips_title_16</source>
+                <target>Miradouro Ponta do Sossego</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_16" resname="trips_description_16">
+                <source>trips_description_16</source>
+                <target>Situado na Lomba da Pedreira, oferece uma vista soberba sobre a costa, podendo daqui avistar-se a Fajã do Araújo e a Praia do Lombo Gordo.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_17" resname="trips_title_17">
+                <source>trips_title_17</source>
+                <target>Miradouro Vista do Rei</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_17" resname="trips_description_17">
+                <source>trips_description_17</source>
+                <target>Situado na orla da cratera do vulcão das Sete Cidades, deve o seu nome à visita do rei Dom Carlos e da rainha Dona Amélia, que aqui se deliciaram com esta deliciosa paisagem.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_18" resname="trips_title_18">
+                <source>trips_title_18</source>
+                <target>Parque Terra Nostra</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_18" resname="trips_description_18">
+                <source>trips_description_18</source>
+                <target>Um jardim centenário, que possui uma grande variedade de plantas e árvores exóticas, lagos e riachos com água termal e uma imensa piscina natural de água quente e cor castanha, que adquire esta tonalidade devido à presença do ferro. </target>
+            </trans-unit>
+            
+            
+            
+            
+            
+            
             <!-- TRIPS END-->
+            
+            
+            
+            
+            
+            
+            
             
             
             

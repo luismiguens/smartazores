@@ -207,6 +207,224 @@
                 <source>trips_description</source>
                 <target>The list of tourist attractions we propose below are also Smart! These are the proposals of those who have been in love for many years with the Island of São Miguel. Have fun!</target>
             </trans-unit>
+            
+            
+            
+            
+            
+            <trans-unit id="trips_title_01" resname="trips_title_01">
+                <source>trips_title_01</source>
+                <target>Caldeira Velha</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_01" resname="trips_description_01">
+                <source>trips_description_01</source>
+                <target>Is a waterfall of hot water where you can bathe, located on the slope of the Serra de Agua de Pau.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_02" resname="trips_title_02">
+                <source>trips_title_02</source>
+                <target>Cozido das Furnas</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_02" resname="trips_description_02">
+                <source>trips_description_02</source>
+                <target>Cooked in the natural boilers of Lagoa das Furnas, it is one of the most emblematic dishes of the island of São Miguel.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_03" resname="trips_title_03">
+                <source>trips_title_03</source>
+                <target>Ermida nossa Senhora do Monte Santo</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_03" resname="trips_description_03">
+                <source>trips_description_03</source>
+                <target>Located on the top of Figueira Peak, the hermitage of Nossa senhora do Monte Santo offers a wide view over the village of Água de Pau.</target>
+            </trans-unit>
+            
+            
+            
+            <trans-unit id="trips_title_04" resname="trips_title_04">
+                <source>trips_title_04</source>
+                <target>Estufas de Ananases</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_04" resname="trips_description_04">
+                <source>trips_description_04</source>
+                <target>In this plantation of Pineapples we can see the greenhouses with the different stages of the plant / fruit and the "processes" to realize the famous fruits.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_05" resname="trips_title_05">
+                <source>trips_title_05</source>
+                <target>Fumarolas das Furnas</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_05" resname="trips_description_05">
+                <source>trips_description_05</source>
+                <target>In the village of Furnas you can see the boilers boiling, with gels of boiling water and small fountains, from which sprout mineral waters that leave an orange trail.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_06" resname="trips_title_06">
+                <source>trips_title_06</source>
+                <target>Fábrica de chá da Gorreana</target>
+            </trans-unit>
+                        
+                        
+            <trans-unit id="trips_description_06" resname="trips_description_06">
+                <source>trips_description_06</source>
+                <target>In the oldest tea plantation in Europe, you will be able to enter the factory and see up close all the machines used in tea making.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_07" resname="trips_title_07">
+                <source>trips_title_07</source>
+                <target>Gruta do Carvão</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_07" resname="trips_description_07">
+                <source>trips_description_07</source>
+                <target>The Coal Cave is the largest known lava tunnel on the island of São Miguel, with a length of 1912 m and divided into 4 sections.</target>
+            </trans-unit>
+            
+            
+             <trans-unit id="trips_title_08" resname="trips_title_08">
+                <source>trips_title_08</source>
+                <target>Ponta da Ferraria</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_08" resname="trips_description_08">
+                <source>trips_description_08</source>
+                <target>A lava fajã located in the parish of the Ginetes where a spring of hot water of volcanic origin that mixes with the sea and that allows to take bath to more than 40 degrees in the ocean!</target>
+            </trans-unit>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <trans-unit id="trips_title_09" resname="trips_title_09">
+                <source>trips_title_09</source>
+                <target>Igreja Senhora da Vitória</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_09" resname="trips_description_09">
+                <source>trips_description_09</source>
+                <target>One of the most imposing buildings in the entire Azores is the Chapel of Our Lady of Victories, in Furnas, on the island of São Miguel.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_10" resname="trips_title_10">
+                <source>trips_title_10</source>
+                <target>Ilheu Vila Franca do Campo</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_10" resname="trips_description_10">
+                <source>trips_description_10</source>
+                <target>Crater of an ancient submarine volcano, this island is a must visit, a charming landscape and colors located in Vila Franca do Campo. </target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_11" resname="trips_title_11">
+                <source>trips_title_11</source>
+                <target>Lagoa das Furnas</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_11" resname="trips_description_11">
+                <source>trips_description_11</source>
+                <target>It is surrounded by greenery and a wealth of fauna and flora. In one of the points of the Lagoon there are holes in the volcanic floor, where the cooked ones are placed, inside pots.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_12" resname="trips_title_12">
+                <source>trips_title_12</source>
+                <target>Lagoa das Sete Cidades</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_12" resname="trips_description_12">
+                <source>trips_description_12</source>
+                <target>One of the 7 Natural Wonders of Portugal, where the Green and Blue lagoons are formed, according to legend, from the tears shed from a shepherd and a princess who lived a forbidden love.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_13" resname="trips_title_13">
+                <source>trips_title_13</source>
+                <target>Lagoa do Fogo</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_13" resname="trips_description_13">
+                <source>trips_description_13</source>
+                <target>There are always few words to define how beautiful and majestic the Lagoa do Fogo is. Its blue in perfect harmony with the green that lines it, makes this lagoon magic.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_14" resname="trips_title_14">
+                <source>trips_title_14</source>
+                <target>Miradouro Lagoa do Canário</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_14" resname="trips_description_14">
+                <source>trips_description_14</source>
+                <target>The Mirador of the Grotto of the Inferno (also known by Miradouro of the Mouth of Hell) is one of the best known and used in the tourist promotion of the Azores. </target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_15" resname="trips_title_15">
+                <source>trips_title_15</source>
+                <target>Miradouro Pico do Ferro</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_15" resname="trips_description_15">
+                <source>trips_description_15</source>
+                <target>An excellent view of the Furnas lagoon, where you can see all the breathtaking beauty of the Furnas Valley.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_16" resname="trips_title_16">
+                <source>trips_title_16</source>
+                <target>Miradouro Ponta do Sossego</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_16" resname="trips_description_16">
+                <source>trips_description_16</source>
+                <target>Located in Lomba da Pedreira, it offers a superb view over the coast, from here you can see Fajã do Araújo and Lombo Gordo beach.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_17" resname="trips_title_17">
+                <source>trips_title_17</source>
+                <target>Miradouro Vista do Rei</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_17" resname="trips_description_17">
+                <source>trips_description_17</source>
+                <target>Located on the edge of the crater of the volcano of the Seven Cities, its name owes its name to the visit of King Dom Carlos and Queen Dona Amelia, who here delighted in this delightful landscape.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="trips_title_18" resname="trips_title_18">
+                <source>trips_title_18</source>
+                <target>Parque Terra Nostra</target>
+            </trans-unit>
+                        
+            <trans-unit id="trips_description_18" resname="trips_description_18">
+                <source>trips_description_18</source>
+                <target>A century-old garden with a great variety of exotic plants and trees, lakes and streams with thermal water and a huge natural pool of warm water and brown color, which acquires this tone due to the presence of iron.</target>
+            </trans-unit>
+            
+            
+            
+            
+            
+            
              
             <!-- TRIPS END-->
             
